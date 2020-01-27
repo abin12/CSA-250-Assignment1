@@ -53,8 +53,8 @@ def fizz_buzz_pred(i, pred): # return predicted result
 
 input = np.array(list(map(int, input))) #converting string list to integer list
 m=len(input);
-f1=open('software1.txt','w');
-f2=open('software2.txt','w');
+f1=open('Software1.txt','w');
+f2=open('Software2.txt','w');
 model = tf.keras.models.load_model('./model/my_model2.h5')
 errors=0;
 correct=0;
