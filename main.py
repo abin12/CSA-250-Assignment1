@@ -7,7 +7,8 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import Callback,EarlyStopping
 import random
 import sys
-inFile = sys.argv[1]
+
+inFile = sys.argv[2]
 
 
 input=[]
