@@ -8,7 +8,10 @@ from tensorflow.keras.callbacks import Callback,EarlyStopping
 import random
 import sys
 
-inFile = sys.argv[2]
+if (len(sys.argv)==2):
+	inFile='test_input.txt'
+else:
+	inFile=sys.argv[2]
 
 
 input=[]
